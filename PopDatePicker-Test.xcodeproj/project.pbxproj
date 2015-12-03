@@ -12,6 +12,9 @@
 		7BED65C01C02293E00D2FB4E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7BED65BE1C02293E00D2FB4E /* Main.storyboard */; };
 		7BED65C21C02293E00D2FB4E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7BED65C11C02293E00D2FB4E /* Assets.xcassets */; };
 		7BED65C51C02293E00D2FB4E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7BED65C31C02293E00D2FB4E /* LaunchScreen.storyboard */; };
+		7BED65CF1C02298900D2FB4E /* PopDatePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BED65CC1C02298900D2FB4E /* PopDatePicker.swift */; };
+		7BED65D01C02298900D2FB4E /* PopDateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BED65CD1C02298900D2FB4E /* PopDateViewController.swift */; };
+		7BED65D11C02298900D2FB4E /* PopDateViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7BED65CE1C02298900D2FB4E /* PopDateViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		7BED65C11C02293E00D2FB4E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7BED65C41C02293E00D2FB4E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7BED65C61C02293E00D2FB4E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7BED65CC1C02298900D2FB4E /* PopDatePicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopDatePicker.swift; sourceTree = "<group>"; };
+		7BED65CD1C02298900D2FB4E /* PopDateViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopDateViewController.swift; sourceTree = "<group>"; };
+		7BED65CE1C02298900D2FB4E /* PopDateViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PopDateViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +60,7 @@
 		7BED65B91C02293E00D2FB4E /* PopDatePicker-Test */ = {
 			isa = PBXGroup;
 			children = (
+				7BED65D21C02299300D2FB4E /* PopDatePicker */,
 				7BED65BA1C02293E00D2FB4E /* AppDelegate.swift */,
 				7BED65BC1C02293E00D2FB4E /* ViewController.swift */,
 				7BED65BE1C02293E00D2FB4E /* Main.storyboard */,
@@ -62,6 +69,16 @@
 				7BED65C61C02293E00D2FB4E /* Info.plist */,
 			);
 			path = "PopDatePicker-Test";
+			sourceTree = "<group>";
+		};
+		7BED65D21C02299300D2FB4E /* PopDatePicker */ = {
+			isa = PBXGroup;
+			children = (
+				7BED65CC1C02298900D2FB4E /* PopDatePicker.swift */,
+				7BED65CD1C02298900D2FB4E /* PopDateViewController.swift */,
+				7BED65CE1C02298900D2FB4E /* PopDateViewController.xib */,
+			);
+			name = PopDatePicker;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -124,6 +141,7 @@
 			files = (
 				7BED65C51C02293E00D2FB4E /* LaunchScreen.storyboard in Resources */,
 				7BED65C21C02293E00D2FB4E /* Assets.xcassets in Resources */,
+				7BED65D11C02298900D2FB4E /* PopDateViewController.xib in Resources */,
 				7BED65C01C02293E00D2FB4E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -135,7 +153,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7BED65CF1C02298900D2FB4E /* PopDatePicker.swift in Sources */,
 				7BED65BD1C02293E00D2FB4E /* ViewController.swift in Sources */,
+				7BED65D01C02298900D2FB4E /* PopDateViewController.swift in Sources */,
 				7BED65BB1C02293E00D2FB4E /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
